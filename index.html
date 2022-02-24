@@ -1,76 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <title>Document</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
 
-    <body>
-        <header>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-7 brdr">
-                        <img src="img/birds.png" alt="birds" class="header__img" />
-                    </div>
-                    <div class="col-lg-5 brdr">
-                        <nav class="menu">
-                            <ul class="menu__list">
-                                <a href="#">
-                                    <li class="menu__item">Портфолио</li>
-                                </a>
-                                <a href="#">
-                                    <li class="menu__item">Иллюстрации</li>
-                                </a>
-                                <a href="#">
-                                    <li class="menu__item">Театр</li>
-                                </a>
-                                <a href="#">
-                                    <li class="menu__item">Заказать работу</li>
-                                </a>
-                                <a href="#">
-                                    <li class="menu__item">Контакты</li>
-                                </a>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="row ">
-                    <div class="col-lg-7 brdr profile">
-                        <div class="profile-description brdr">
-                            <div class="profile__text">Привет! Меня зову Настя и я художник. Я работаю в разных техниках и жанрах. Масло, темпера, жидкий акрил, пастель.</div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 brdr profile">
-                        <img src="img/portrait.png" alt="portrait" class="header__img" />
-                    </div>
-                </div>
+  <body>
+    <header class="header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-7 position-relative">
+            <img
+              src="img/birds.png"
+              alt="birds"
+              class="header__img position-absolute top-0 end-0"
+            />
+          </div>
+          <div class="col-lg-5 position-relative header__right-col">
+            <nav class="menu">
+              <ul class="menu__list">
+                <a href="#">
+                  <li class="menu__item">Портфолио</li>
+                </a>
+                <a href="#">
+                  <li class="menu__item">Иллюстрации</li>
+                </a>
+                <a href="#">
+                  <li class="menu__item">Театр</li>
+                </a>
+                <a href="#">
+                  <li class="menu__item">Заказать работу</li>
+                </a>
+                <a href="#">
+                  <li class="menu__item">Контакты</li>
+                </a>
+              </ul>
+            </nav>
+            <div class="portrait position-absolute start-0 bottom-0">
+              <img
+                src="img/portrait.png"
+                alt="portrait"
+                class="portrait__img"
+              />
             </div>
-        </header>
-        <section class="section-portfolio">
-            <!-- <div class="container-fluid">
-                <div class="row"> -->
-                    <div class="section-header"><h2>Портфолио</h2></div>
-                <!-- </div>
-            </div> -->
-        </section>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="hr-bold"></div>
+    <section class="section-profile">
+      <div class="row profile">
+        <div class="col-lg-7">
+          <div class="profile__description">
+            <div class="profile__text">
+              Привет! Меня зову Настя и я художник. Я работаю в разных техниках
+              и жанрах. Масло, темпера, жидкий акрил, пастель.
+            </div>
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="subtitle subtitle-white">
+            <h1>Портфолио</h1>
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+    </section>
 
-        <footer>
-            <div class="container-fluid">
-                <div class="row align-items-center footer"></div>
-            </div>
-        </footer>
-    </body>
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row"></div>
+      </div>
+    </footer>
+  </body>
 </html>
